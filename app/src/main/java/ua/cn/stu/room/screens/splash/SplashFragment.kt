@@ -5,8 +5,10 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import ua.cn.stu.room.R
+
 import ua.cn.stu.room.Repositories
 import ua.cn.stu.room.databinding.FragmentSplashBinding
+
 import ua.cn.stu.room.screens.main.MainActivity
 import ua.cn.stu.room.screens.main.MainActivityArgs
 import ua.cn.stu.room.utils.observeEvent

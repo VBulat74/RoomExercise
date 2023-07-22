@@ -3,8 +3,6 @@ package ua.cn.stu.room.screens.main.tabs.settings
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.launch
 import ua.cn.stu.room.R
 import ua.cn.stu.room.model.StorageException
@@ -14,6 +12,7 @@ import ua.cn.stu.room.model.boxes.entities.BoxAndSettings
 import ua.cn.stu.room.utils.MutableLiveEvent
 import ua.cn.stu.room.utils.publishEvent
 import ua.cn.stu.room.utils.share
+
 
 class SettingsViewModel(
     private val boxesRepository: BoxesRepository

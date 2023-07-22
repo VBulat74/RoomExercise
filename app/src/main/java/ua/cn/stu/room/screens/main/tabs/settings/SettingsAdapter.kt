@@ -10,6 +10,7 @@ import ua.cn.stu.room.R
 import ua.cn.stu.room.model.boxes.entities.Box
 import ua.cn.stu.room.model.boxes.entities.BoxAndSettings
 
+
 class SettingsAdapter(
     private val listener: Listener
 ) : RecyclerView.Adapter<SettingsAdapter.Holder>(), View.OnClickListener {

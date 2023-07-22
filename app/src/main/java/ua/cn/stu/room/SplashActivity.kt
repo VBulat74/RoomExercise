@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import ua.cn.stu.room.screens.splash.SplashFragment
 import ua.cn.stu.room.screens.splash.SplashViewModel
 
+
 /**
  * Entry point of the app.
  *

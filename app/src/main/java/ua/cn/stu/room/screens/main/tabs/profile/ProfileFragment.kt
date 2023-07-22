@@ -12,7 +12,7 @@ import ua.cn.stu.room.utils.findTopNavController
 import ua.cn.stu.room.utils.observeEvent
 import ua.cn.stu.room.utils.viewModelCreator
 import java.text.SimpleDateFormat
-import java.util.*
+import java.util.Date
 
 class ProfileFragment : Fragment(R.layout.fragment_profile) {
 
